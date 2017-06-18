@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimaryLight">#c5cae9</color>
+    <color name="colorAccent">#ff4081</color>
+
+    <color name="colorRipple">#1c2557</color>
+    <color name="colorGrayRipple">#cfcfcf</color>
+
+    <color name="Blue">#2b44d1</color>
+    <color name="Blue100">#bbdefb</color>
+    <color name="Gray">#ababab</color>
+    <color name="White">#ffffff</color>
+    <color name="colorFlatButton">#009688</color>
+
+    <color name="black_overlay">#66000000</color>
+
+</resources>

@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            tools:context=".EntryWebSiteActivity"
+            tools:showIn="@layout/activity_entry_web_site"
+            android:fillViewport="false">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/entry_web_site_title_copy_imageButton"
+        android:src="@drawable/ic_content_copy_black_24dp"
+        android:layout_alignParentRight="true"
+
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="24dp"
+        android:background="@android:color/transparent" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Title"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="4dp"
+        android:id="@+id/card_title_textView"
+        android:layout_toLeftOf="@id/entry_web_site_title_copy_imageButton"
+        android:layout_marginBottom="4dp"
+        android:textColor="@color/colorAccent" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="24dp"
+        android:id="@+id/entry_web_site_customer_title_textView"
+        android:layout_below="@id/card_title_textView"
+        android:layout_toLeftOf="@id/entry_web_site_title_copy_imageButton"
+        android:hint="@string/Title" />
+
+
+
+      <View style="@style/Divider"
+          android:id="@+id/card_divider_1"
+          android:layout_below="@id/entry_web_site_customer_title_textView"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/entry_web_site_username_copy_imageButton"
+        android:src="@drawable/ic_content_copy_black_24dp"
+        android:layout_alignParentRight="true"
+
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="24dp"
+        android:background="@android:color/transparent" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/UserName"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="4dp"
+        android:id="@+id/entry_web_site_username_textView"
+        android:layout_toLeftOf="@id/entry_web_site_username_copy_imageButton"
+
+        android:layout_marginBottom="4dp"
+        android:textColor="@color/colorAccent" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="24dp"
+        android:id="@+id/entry_web_site_customer_username_textView"
+        android:layout_below="@id/entry_web_site_username_textView"
+        android:layout_toLeftOf="@id/entry_web_site_username_copy_imageButton"
+        android:hint="@string/UserName" />
+
+      <View style="@style/Divider"
+        android:id="@+id/entry_web_site_divider_2"
+        android:layout_below="@id/entry_web_site_customer_username_textView"/>
+
+      </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/entry_web_site_password_copy_imageButton"
+        android:src="@drawable/ic_content_copy_black_24dp"
+        android:layout_alignParentRight="true"
+
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="24dp"
+        android:background="@android:color/transparent" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/entry_web_site_password_open_symbol_imageButton"
+        android:src="@drawable/ic_visibility_black_24dp"
+
+        android:layout_toLeftOf="@id/entry_web_site_password_copy_imageButton"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="24dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="2dp"
+        android:background="@android:color/transparent" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Password"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="4dp"
+        android:id="@+id/entry_web_site_password_textView"
+        android:layout_toLeftOf="@id/entry_web_site_password_open_symbol_imageButton"
+
+        android:layout_marginBottom="4dp"
+        android:textColor="@color/colorAccent" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="24dp"
+        android:id="@+id/entry_web_site_customer_password_textView"
+        android:layout_below="@id/entry_web_site_password_textView"
+        android:layout_toLeftOf="@id/entry_web_site_password_open_symbol_imageButton"
+        android:hint="@string/Password"/>
+
+      <View style="@style/Divider"
+            android:id="@+id/entry_web_site_divider_3"
+            android:layout_below="@id/entry_web_site_customer_password_textView"/>
+
+  </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+      <ImageButton
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/entry_web_site_website_copy_imageButton"
+          android:src="@drawable/ic_content_copy_black_24dp"
+          android:layout_alignParentRight="true"
+
+          android:layout_marginTop="20dp"
+          android:layout_marginBottom="24dp"
+          android:background="@android:color/transparent" />
+
+
+      <ImageButton
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/entry_web_site_open_website_imageButton"
+          android:src="@drawable/ic_website_black_24dp"
+
+          android:layout_toLeftOf="@id/entry_web_site_website_copy_imageButton"
+          android:layout_marginTop="20dp"
+          android:layout_marginBottom="24dp"
+          android:layout_marginRight="8dp"
+          android:layout_marginLeft="2dp"
+          android:background="@android:color/transparent" />
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="@string/Website"
+          android:layout_marginLeft="24dp"
+          android:layout_marginRight="4dp"
+          android:id="@+id/entry_web_site_website_textView"
+          android:layout_toLeftOf="@id/entry_web_site_open_website_imageButton"
+
+          android:layout_marginBottom="4dp"
+          android:textColor="@color/colorAccent" />
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textSize="20sp"
+          android:layout_gravity="center"
+          android:layout_marginLeft="24dp"
+          android:layout_marginRight="4dp"
+          android:layout_marginBottom="24dp"
+          android:id="@+id/entry_web_site_customer_website_textView"
+          android:layout_below="@id/entry_web_site_website_textView"
+          android:layout_toLeftOf="@id/entry_web_site_open_website_imageButton"
+          android:hint="@string/Website"/>
+
+      <View style="@style/Divider"
+            android:id="@+id/entry_web_site_divider_4"
+            android:layout_below="@id/entry_web_site_customer_website_textView"/>
+
+    </RelativeLayout>
+
+  </LinearLayout>
+
+
+
+</ScrollView>

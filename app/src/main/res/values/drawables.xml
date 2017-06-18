@@ -1,0 +1,33 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <item name="ic_menu_camera" type="drawable">@android:drawable/ic_menu_camera</item>
+    <item name="ic_menu_gallery" type="drawable">@android:drawable/ic_menu_gallery</item>
+    <item name="ic_menu_slideshow" type="drawable">@android:drawable/ic_menu_slideshow</item>
+    <item name="ic_menu_manage" type="drawable">@android:drawable/ic_menu_manage</item>
+    <item name="ic_menu_share" type="drawable">@android:drawable/ic_menu_share</item>
+    <item name="ic_menu_send" type="drawable">@android:drawable/ic_menu_send</item>
+
+    <item name="ic_mode_edit_white_24dp" type="drawable">@android:drawable/ic_menu_edit</item>
+    <item name="ic_delete_white_24dp" type="drawable">@android:drawable/ic_menu_delete</item>
+
+    <item name="ic_mode_edit_black_24dp" type="drawable">@android:drawable/ic_menu_edit</item>
+    <item name="ic_delete_black_24dp" type="drawable">@android:drawable/ic_menu_delete</item>
+    <item name="ic_more_vert_white_24dp" type="drawable">@drawable/ic_more_vert_white_19api</item>
+
+    <item name="ic_settings_black_24dp" type="drawable">@android:drawable/ic_menu_manage</item>
+
+    <item name="ic_menu_save_black_24dp" type="drawable">@android:drawable/ic_menu_save</item>
+    <item name="ic_menu_save_white_24dp" type="drawable">@android:drawable/ic_menu_save</item>
+
+    <item name="ic_content_copy_black_24dp" type="drawable">@drawable/ic_copy</item>
+    <item name="ic_visibility_black_24dp" type="drawable">@android:drawable/ic_menu_view</item>
+    <item name="ic_visibility_off_black_24dp" type="drawable">@android:drawable/ic_menu_view</item>
+    <item name="ic_sort_black_24dp" type="drawable">@android:drawable/ic_menu_sort_by_size</item>
+    <item name="ic_sort_white_24dp" type="drawable">@android:drawable/ic_menu_sort_by_size</item>
+    <item name="ic_website_black_24dp" type="drawable">@drawable/ic_website</item>
+    <item name="ic_credit_cards_black_24dp" type="drawable">@drawable/ic_credit_cards</item>
+
+    <item name="ic_input_master_pass_black_24dp" type="drawable">@drawable/ic_change_vaster_pass</item>
+    <item name="ic_exit_black_24dp" type="drawable">@drawable/ic_exit</item>
+
+    <item name="ic_about_black_24dp" type="drawable">@drawable/ic_about</item>
+</resources>

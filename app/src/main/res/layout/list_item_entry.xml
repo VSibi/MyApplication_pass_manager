@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/list_item_entry_cardView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        card_view:cardCornerRadius="4dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/avatar_entryTextView"
+                android:background="@drawable/avatar_entry"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:text="E"
+                android:textSize="40sp"
+                android:textColor="@color/colorPrimary"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/list_item_entry_title_textView"
+                android:textColor="@color/colorPrimaryDark"
+                tools:text="Entry title"
+                android:textSize="24sp"
+                android:layout_marginTop="24dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_toRightOf="@id/avatar_entryTextView"
+                android:maxLines="1"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/list_item_entry_subtitle_textView"
+                tools:text="Last updated: 02/04/2017 14:50"
+                android:textSize="14sp"
+                android:layout_marginLeft="16dp"
+                android:layout_toRightOf="@id/avatar_entryTextView"
+                android:layout_below="@id/list_item_entry_title_textView"
+                android:layout_marginRight="16dp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/list_item_entry_learn_more_Button"
+                android:text="@string/menu_learn_more"
+                android:layout_alignParentBottom="true"
+                android:theme="@style/MyFlatButton"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/list_item_entry_delete_Button"
+                android:text="@string/menu_delete"
+                android:layout_alignParentBottom="true"
+                android:layout_toRightOf="@id/list_item_entry_learn_more_Button"
+                android:theme="@style/MyFlatButton"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"/>
+
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+
+</LinearLayout>
