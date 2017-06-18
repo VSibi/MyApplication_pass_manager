@@ -42,7 +42,7 @@
     <string name="CreditCards">Кредитные карты</string>
     <string name="CVV">CVV</string>
     <string name="DateCard">Дата карты</string>
-    <string name="EditCreditCard">Редакт. кредтную арту</string>
+    <string name="EditCreditCard">Редакт. кредитную карту</string>
     <string name="Empty_password">Пустой пароль!</string>
     <string name="Entries_not_load">Записи не загружены!</string>
     <string name="Entries_not_save">Записи не сохранены!</string>
